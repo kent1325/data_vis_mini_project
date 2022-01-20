@@ -9,7 +9,5 @@ shinyUI(
                  tabPanel("Data Exploration", page_data_exploration_UI("data_exploration")),
                  tabPanel("Linked Plots", page_linked_plots_UI("linked_plots"))
     ),
-    # Here we let a submodule do the graph plot for us. (ggplot)
-    #basic_ggplot_UI("basic_fast_plot")
   )
 )
